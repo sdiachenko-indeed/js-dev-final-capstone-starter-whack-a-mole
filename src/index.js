@@ -5,22 +5,6 @@ const startButton = document.querySelector('#start');
 // TODO: Add the missing query selectors:
 const score = document.querySelector("#score"); // Use querySelector() to get the score element
 const timerDisplay = document.querySelector("#timer"); // use querySelector() to get the timer element.
-const song = new Audio("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/molesong.mp3?raw=true");
-const audioHit = new Audio("https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/hit.mp3?raw=true");
-
-function playAudio(audioObject) {
-  audioObject.play();
-}
-function loopAudio(audioObject) {
-  audioObject.loop = true;
-  playAudio(audioObject);
-}
-function stopAudio(audioObject) {
-  audioObject.pause();
-}
-function play(){
-  playAudio(song);
-}
 
 let time = 0;
 let timer;
