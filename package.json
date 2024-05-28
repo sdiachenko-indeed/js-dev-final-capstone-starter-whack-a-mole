@@ -1,8 +1,8 @@
 {
-  "name": "js-dev-b2b-final-capstone",
+  "name": "whack-a-mole",
   "version": "1.0.0",
-  "description": "js-dev-b2b-final-capstone qualified challenge",
-  "dependencies": {},
+  "author": "sergiy diachenko",
+  "description": "whack-a-mole-final-capstone qualified challenge",
   "devDependencies": {
     "jest": "^29.0.0",
     "jest-puppeteer": "^6.0.0",
